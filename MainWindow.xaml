@@ -1,0 +1,18 @@
+﻿<Window x:Class="TwitchChatBot_WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwitchChatBot_WPF_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="270
+        " Width="490">
+    <Grid>
+        <Button x:Name="ConnectBtn" Content="Подключиться" HorizontalAlignment="Left" Margin="360,25,0,0" VerticalAlignment="Top" Width="99" Height="24" Click="ConnectBtn_Click"/>
+        <TextBox x:Name="TextChName" HorizontalAlignment="Left" Height="23" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317"/>
+        <Label Content="Имя канала" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="TextLog" HorizontalAlignment="Left" Height="149" Margin="10,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317"/>
+        <Button x:Name="DisBtn" Content="Отключится" HorizontalAlignment="Left" Margin="360,194,0,0" VerticalAlignment="Top" Width="99" Height="24" Click="DisBtn_Click" IsEnabled="False"/>
+
+    </Grid>
+</Window>
